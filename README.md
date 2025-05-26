@@ -58,9 +58,8 @@
 - 🔹 Giới thiệu CSS - Casscading Style Sheets
 - 🔹 Đơn vị kích thước
   
-| Đơn vị | Mô tả| Đơn vị | Mô tả|
+| Đơn vị kích thước tương đối| Mô tả| Đơn vị kích thước tuyệt đối| Mô tả|
 |--------|------|--------|------|
-|Kích thước tương đối||Kích thước thuyệt đối||
 | % | Phần trăm so với thành phần chứa đối tượng|px| pixel|
 |vw| Phần trăm của chiều rộng cửa sổ khung hình |pt| point (1 pt = 1/27 in)|
 |vh| Phần trăm của chiều cao của cửa sổ khung hình|cm| Xăng ti mét|
