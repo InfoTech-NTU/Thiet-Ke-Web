@@ -14,28 +14,43 @@
 - 🔹 Giới thiệu HTML - HyperText Markup Language
 - 🔹 Cấu trúc của HTML
 - 🔹 Các tag (thẻ) HTML cơ bản
-|Các thẻ định dạng khối văn bản|
-|------------------------------|-------------------------------------|
-| - Tiêu đề (Heading)| `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, `<h6>`|
-| - Đoạn văn bản (Paragraph)| `<p>`|
-| - Danh sách (List Items)| `<li>`|
-|Các thẻ định dạng chuỗi văn bản|
-| - Định dạng chữ| `<em>`, `<i>`, `<b>`, `<b>`, `<font>`|
-| - Thẻ Link | `<a>`|
-| - Xuống dòng| `<br/>`|
-|Các thẻ khối|
-| - Định nghĩa nội dung mức khối| `<div>`|
-| - Định nghĩa nội dung trong dòng| `<span>`|
-|Các thẻ bảng, đơn|
-|- Thẻ bảng | `<table>`|
-|- Thẻ đơn | `<form>`|
-- 🔹 Ký tự đặc biệt
-|Ký tự đặc biệt| Mô tả| Entity Name| Entity Number|
-|" | Dấu ngoặc kép| `&quot`|`&#34`|
-|& | Dấu và| `&amp`|`&#38`|
-|< | Dấu bé| `&lt`|`&#60`|
-|> | Dấu lớn| `&gt`|`&62`|
-| space| Khoảng trắng|`&nbsp`|`&#160`|
+### 🔸 Các thẻ định dạng **khối văn bản**
+| Mô tả                  | Thẻ HTML                             |
+|------------------------|--------------------------------------|
+| Tiêu đề (Heading)      | `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, `<h6>` |
+| Đoạn văn bản (Paragraph) | `<p>`                              |
+| Danh sách (List Item)  | `<li>`                               |
+
+### 🔸 Các thẻ định dạng **chuỗi văn bản**
+| Mô tả             | Thẻ HTML                                |
+|-------------------|-----------------------------------------|
+| Định dạng chữ     | `<em>`, `<i>`, `<b>`, `<strong>`, `<font>` |
+| Thẻ liên kết (Link) | `<a>`                                |
+| Xuống dòng        | `<br/>`                                 |
+
+### 🔸 Các thẻ **khối và nội dung**
+| Mô tả                          | Thẻ HTML    |
+|-------------------------------|-------------|
+| Nội dung mức khối             | `<div>`     |
+| Nội dung trong dòng (inline)  | `<span>`    |
+
+### 🔸 Các thẻ **bảng và biểu mẫu**
+| Mô tả           | Thẻ HTML  |
+|------------------|-----------|
+| Thẻ bảng         | `<table>` |
+| Thẻ biểu mẫu     | `<form>`  |
+
+---
+
+## 🔹 Ký tự đặc biệt trong HTML
+
+| Ký tự     | Mô tả            | Entity Name | Entity Number |
+|-----------|------------------|-------------|----------------|
+| `"`       | Dấu ngoặc kép     | `&quot;`     | `&#34;`         |
+| `&`       | Dấu và            | `&amp;`      | `&#38;`         |
+| `<`       | Dấu bé            | `&lt;`       | `&#60;`         |
+| `>`       | Dấu lớn           | `&gt;`       | `&#62;`         |
+| (space)   | Khoảng trắng      | `&nbsp;`     | `&#160;`        |
 - 🔹 Một số tag (thẻ) đặc biệt
 
 ---
