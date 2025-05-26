@@ -78,57 +78,51 @@
 |RGB(r,g,b)| Màu RGB với 3 giá trị R, G, B có giá trị từ 0 - 255|grad|Góc dốc (1 vòng = 400 grad)|Hz| Heta|
 |RGB(%r,%g,%b)| Màu RGB với 3 giá trị R, G, B có giá trị từ 0 - 100%|turn|Góc xoay (1 vòng = 1 turn)|kHz|Ki lô heta|
 
-- 🔹 Tạo, sử dụng và hủy đối tượng
-- 🔹 Hàm thiết lập (constructor)
-- 🔹 Hàm hủy (destructor/finalizer)  
-- 🔹 Lớp tĩnh, thành phần tĩnh
-- 🔹 📝 [Ví dụ minh họa static class](https://github.com/nd-hung/oop/blob/main/docs/topics/classes-and-objects/code/TemperatureConverter/Program.cs)
-- 🔹 Con trỏ this
-- 🔹 Danh sách đối tượng
-  - Danh sách tĩnh (array)
-  - Danh sách động (list)
-- 🔹 Nạp chồng phương thức (method overloading)
-- 🔹 Nạp chồng toán tử (operator overloading)
-- 🔹 📝 [Ví dụ minh họa](https://github.com/nd-hung/oop/blob/main/docs/topics/classes-and-objects/code/OperatorOverloading/Program.cs) 
+- 🔹 Sử dụng và phân loại CSS
+- 🔹 Thuộc tính - Background
+- 🔹 Background Gradient 
+- 🔹 Font - Web Fonts - Text
+- 🔹 Hiệu ứng văn bản
+- 🔹 Đổ bóng - Transform
+- 🔹 Margin và Padding
+- 🔹 Responsive
+- 
+---
+
+## IV. Ngôn ngữ JavaScript
+- 🔹 Giới thiệu về JavaScript 
+- 🔹 Nhúng JavaScript vào trang Web
+- 🔹 Kiểu dữ liệu và các cú pháp
+- 🔹 Xử lý sự kiện
+- 🔹 DOM HTML với JavaScript
+- 🔹 📝 [Bài giảng và Ví Dụ](https://www.youtube.com/playlist?list=PLk2ohMBz-QlWdRr52aJkEUpHxG6A7KtCj)  
 
 ---
 
-## IV. Thừa kế - Inheritance
-- 🔹 Tổng quát hóa, đặc biệt hóa 
-- 🔹 Cài đặt thừa kế
-- 🔹 📝 [Các ví dụ thừa kế](https://github.com/nd-hung/oop/tree/main/docs/topics/inheritance/code)
-- 🔹 Quy tắc thừa kế
-- 🔹 Lớp niêm phong (sealed class)
-- 🔹 Nạp chồng phương thức của lớp cơ sở
-- 🔹 Ẩn phương thức của lớp cơ sở
-- 🔹 📝 [Ví dụ minh họa](https://github.com/nd-hung/oop/tree/main/docs/topics/inheritance/code/HidingBaseMethods)  
-
----
-
-## V. Đa hình - Polymorphism
-- 🔹 Dẫn nhập
-- 🔹 Kỹ thuật đa hình
-- 🔹 📝 [Ví dụ](https://github.com/nd-hung/oop/tree/main/docs/topics/polymorphism/code/Shape/)
-- 🔹 Lớp trừu tượng - AbstractClass, phương thức trừu tượng - Abstract Method
-- 🔹 Sự khác nhau giữa từ khóa new và override
-- 🔹 Giao diện (interface)
-- 🔹 Đa thừa kế
-- 🔹 📝 [Ví dụ đa thừa kế](https://github.com/nd-hung/oop/tree/main/docs/topics/polymorphism/code/MultipleInheritance)
+## V. Bootstrap 
+- 🔹 Giới thiệu về Bootstrap
+- 🔹 Nhúng Bootstrap vào trang Web
+- 🔹 Các class CSS Bootstrap
+- 🔹 📝 [Bài giảng và Ví Dụ](https://www.youtube.com/watch?v=K1t008QJCEo&list=PLk2ohMBz-QlUT7Ect-F2EKXsdyGFWWGnb)  
 
 ---
 
 ## 💡 Một số gợi ý - tham khảo
-### 1. Một số sách/tài liệu
+### 1. Một ví dụ bài tập
 
-| STT | Tên tài liệu     | Tác giả                                                     |
-|-----|--------------|-----------------------------------------------------------------|
-| 1   | [Lập trình hướng đối tượng](https://nd-hung.github.io/oop/)      | Thầy Nguyễn Đình Hưng|
-| 2   | Lập trình hướng đối tượng      | Trần Đan Thư, Đinh Bá Tiến, Nguyễn Tấn Trần Minh Khang - NXB Khoa học kỹ thuật, 2010|
-| 3  | C# Programming Yellow Book     | Rob Miles, 2016|
-| 4   | Beginning C# Object-Oriented Programming    | Dan Clark, 2015|
-| 5  | Lập trình hướng đối tượng với C++       | Lê Đăng Hưng, Tạ Tuấn Anh, Nguyễn Hữu Đức, Nguyễn Thanh Thủy - NXB Khoa học kỹ thuật, 2005|
-| 6   | C++ How to Program, 10th edition     | Paul Dietel - Pearson, 2017|
-| 7  | ...          | ...                                                            |
+| STT | Tên bài     |
+|-----|--------------|
+| 1   | [Thiết kế Layout trang Web](https://github.com/TuanKiet1774/WEB_UI/tree/main/B%C3%A0i%20T%E1%BA%ADp%20Th%E1%BB%B1c%20H%C3%A0nh/Lab1_Ph%E1%BA%A1m%20Tu%C3%A2n%20Ki%E1%BB%87t)|
+| 2   | [Sử dụng CSS và HTML](https://github.com/TuanKiet1774/WEB_UI/tree/main/B%C3%A0i%20T%E1%BA%ADp%20Th%E1%BB%B1c%20H%C3%A0nh/Lab2_Ph%E1%BA%A1m%20Tu%E1%BA%A5n%20Ki%E1%BB%87t)    |
+| 3  | [Xây dựng một Website bán hàng](https://github.com/TuanKiet1774/WEB_UI/tree/main/B%C3%A0i%20T%E1%BA%ADp%20Th%E1%BB%B1c%20H%C3%A0nh/Lab3_Ph%E1%BA%A1m%20Tu%E1%BA%A5n%20Ki%E1%BB%87t)     |
+| 4   | [Tạo form đăng nhâp và đăng ký](https://github.com/TuanKiet1774/WEB_UI/tree/main/B%C3%A0i%20T%E1%BA%ADp%20Th%E1%BB%B1c%20H%C3%A0nh/Lab4_Ph%E1%BA%A1m%20Tu%E1%BA%A5n%20Ki%E1%BB%87t)|
+| 5  | [Sử dụng Bootstrap](https://github.com/TuanKiet1774/WEB_UI/tree/main/B%C3%A0i%20T%E1%BA%ADp%20Th%E1%BB%B1c%20H%C3%A0nh/Lab5_Ph%E1%BA%A1m%20Tu%C3%A2n%20Ki%E1%BB%87t)      | 
+| 6   | [Sử dụng thư viện OwlCarousel](https://github.com/TuanKiet1774/WEB_UI/tree/main/B%C3%A0i%20T%E1%BA%ADp%20Th%E1%BB%B1c%20H%C3%A0nh/BT_OwlCarousel) |
+| 7  | [Ôn Tập](https://github.com/TuanKiet1774/WEB_UI/tree/main/%C3%94n%20T%E1%BA%ADp%20CK)|
+|8| [Sử dụng JavaScript](https://github.com/TuanKiet1774/WEB_UI/tree/main/B%C3%A0i%20T%E1%BA%ADp%20Th%E1%BB%B1c%20H%C3%A0nh/BT_JavaScript)|
+|10| [Đề thi mẫu giữa kỳ](https://github.com/TuanKiet1774/WEB_UI/tree/main/Tu%E1%BA%A5n%20Ki%C3%AAt%20-%2064131060%20-%20Gi%E1%BB%AFa%20K%E1%BB%B3)|
+|11| [Đề thi mẫu cuối kỳ](https://github.com/TuanKiet1774/WEB_UI/tree/main/Tu%E1%BA%A5n%20Ki%E1%BB%87t%20-%2064131060%20-%20Cu%E1%BB%91i%20K%E1%BB%B3)|
+| 12  | ...          |                                                            |
 
 ### 2. Trang Web hỗ trợ thiết kế
 
