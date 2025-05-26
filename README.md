@@ -58,25 +58,18 @@
 - 🔹 Giới thiệu CSS - Casscading Style Sheets
 - 🔹 Đơn vị kích thước
   
-| Đơn vị | Mô tả|
-|--------|------|
-|Kích thước tương đối|
-| % | Phần trăm so với thành phần chứa đối tượng|
-|vw| Phần trăm của chiều rộng cửa sổ khung hình |
-|vh| Phần trăm của chiều cao của cửa sổ khung hình|
-|vmin| Phần trăm của chiều khung nhìn nhỏ nhất|
-|vmax| Phần trăm của chiều khung nhìn lớn nhất|
-|em| Kích cỡ của font hiện tại đối tướng hoặc thành phần chứa đối tượng|
-|rem| Giá trị tương đối với font của thành phần gốc|
-|ex| Chiều cao của 1 chữ in thường của font hiện tại|
+| Đơn vị | Mô tả| Đơn vị | Mô tả|
+|--------|------|--------|------|
+|Kích thước tương đối||Kích thước thuyệt đối||
+| % | Phần trăm so với thành phần chứa đối tượng|px| pixel|
+|vw| Phần trăm của chiều rộng cửa sổ khung hình |pt| point (1 pt = 1/27 in)|
+|vh| Phần trăm của chiều cao của cửa sổ khung hình|cm| Xăng ti mét|
+|vmin| Phần trăm của chiều khung nhìn nhỏ nhất|mm| mi li mét|
+|vmax| Phần trăm của chiều khung nhìn lớn nhất|in| inch (1 in = 72 pt)|
+|em| Kích cỡ của font hiện tại đối tướng hoặc thành phần chứa đối tượng|pc| pica (1 pc = 12 pt)|
+|rem| Giá trị tương đối với font của thành phần gốc|ex| Chiều cao của 1 chữ in thường của font hiện tại|
 |ch| chiều rộng của số 0|
-|Kích thước thuyệt đối|
-|px| pixel|
-|pt| point (1 pt = 1/27 in)|
-|cm| Xăng ti mét|
-|mm| mi li mét|
-|in| inch (1 in = 72 pt)|
-|pc| pica (1 pc = 12 pt)|
+
 
 - 🔹 Tạo, sử dụng và hủy đối tượng
 - 🔹 Hàm thiết lập (constructor)
