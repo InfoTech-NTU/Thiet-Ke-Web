@@ -69,6 +69,14 @@
 |rem| Giá trị tương đối với font của thành phần gốc|ex| Chiều cao của 1 chữ in thường của font hiện tại|
 |ch| chiều rộng của số 0|
 
+-🔹 Các ơn vị khác
+
+| Đơn vị màu sắc| Mô tả| Đơn vị góc| Mô tả|Đơn vị tần số| Mô tả|
+|--------|------|--------|------|--------|------|
+|color name| Tên màu trong tiếng anh (red, blue, yellow,...)|deg|Góc độ (1 vòng = 360 deg)|ms|mili giây|
+|Hex RGB| Mã màu RGB hệ thập lục (Vd: #FFFFFF: Trắng, #000000: đen)|rad|Góc radian (1 vòng = 2 Pi)|s|giây|
+|RGB(r,g,b)| Màu RGB với 3 giá trị R, G, B có giá trị từ 0 - 255|grad|Góc dốc (1 vòng = 400 grad)|Hz| Heta|
+|RGB(%r,%g,%b)| Màu RGB với 3 giá trị R, G, B có giá trị từ 0 - 100%|turn|Góc xoay (1 vòng = 1 turn)|kHz|Ki lô heta|
 
 - 🔹 Tạo, sử dụng và hủy đối tượng
 - 🔹 Hàm thiết lập (constructor)
