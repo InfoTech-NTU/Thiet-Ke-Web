@@ -13,14 +13,54 @@
 ## II. Ngôn ngữ HTML
 - 🔹 Giới thiệu HTML - HyperText Markup Language
 - 🔹 Cấu trúc của HTML
-- 🔹 Các tag (thẻ) HTML cơ bản: '<h1>'
-- 🔹 🍀[Nền tảng .NET](https://learn.microsoft.com/en-us/dotnet/)  
+- 🔹 Các tag (thẻ) HTML cơ bản
+|Các thẻ định dạng khối văn bản|
+| - Tiêu đề (Heading)| `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, `<h6>`|
+| - Đoạn văn bản (Paragraph)| `<p>`|
+| - Danh sách (List Items)| `<li>`|
+|Các thẻ định dạng chuỗi văn bản|
+| - Định dạng chữ| `<em>`, `<i>`, `<b>`, `<b>`, `<font>`|
+| - Thẻ Link | `<a>`|
+| - Xuống dòng| `<br/>`|
+|Các thẻ khối|
+| - Định nghĩa nội dung mức khối| `<div>`|
+| - Định nghĩa nội dung trong dòng| `<span>`|
+|Các thẻ bảng, đơn|
+|- Thẻ bảng | `<table>`|
+|- Thẻ đơn | `<form>`|
+- 🔹 Ký tự đặc biệt
+|Ký tự đặc biệt| Mô tả| Entity Name| Entity Number|
+|" | Dấu ngoặc kép| `&quot`|`&#34`|
+|& | Dấu và| `&amp`|`&#38`|
+|< | Dấu bé| `&lt`|`&#60`|
+|> | Dấu lớn| `&gt`|`&62`|
+| space| Khoảng trắng|`&nbsp`|`&#160`|
+- 🔹 Một số tag (thẻ) đặc biệt
 
 ---
 
-## III. Lớp và đối tượng - Classes and Objects
-- 🔹 Cài đặt lớp  
-- 🔹 Thiết lập tính bao đóng  
+## III. Ngôn ngữ CSS
+- 🔹 Giới thiệu CSS - Casscading Style Sheets
+- 🔹 Đơn vị kích thước
+| Đơn vị | Mô tả|
+|Kích thước tương đối|
+| % | Phần trăm so với thành phần chứa đối tượng|
+|vw| Phần trăm của chiều rộng cửa sổ khung hình |
+|vh| Phần trăm của chiều cao của cửa sổ khung hình|
+|vmin| Phần trăm của chiều khung nhìn nhỏ nhất|
+|vmax| Phần trăm của chiều khung nhìn lớn nhất|
+|em| Kích cỡ của font hiện tại đối tướng hoặc thành phần chứa đối tượng|
+|rem| Giá trị tương đối với font của thành phần gốc|
+|ex| Chiều cao của 1 chữ in thường của font hiện tại|
+|ch| chiều rộng của số 0|
+|Kích thước thuyệt đối|
+|px| pixel|
+|pt| point (1 pt = 1/27 in)|
+|cm| Xăng ti mét|
+|mm| mi li mét|
+|in| inch (1 in = 72 pt)|
+|pc| pica (1 pc = 12 pt)|
+
 - 🔹 Tạo, sử dụng và hủy đối tượng
 - 🔹 Hàm thiết lập (constructor)
 - 🔹 Hàm hủy (destructor/finalizer)  
@@ -85,21 +125,11 @@
 | 6   | [Image Color Picker](https://imagecolorpicker.com/vi)| Lấy tham số màu săc|
 | 6   | ...          |
 
-### 3. Một số từ khóa quan trọng
+### 3. Một số ký tự quan trọng
 
-| STT | Từ khóa                   | Chức năng                                                       |
+| STT | ký tự                   | Chức năng                                                       |
 |-----|-----------------------------|-----------------------------------------------------------------|
-| 1   | public                 | Truy cập được từ bất kỳ đâu, cả trong và ngoài assembly (dự án).                              |
-| 2   | private  | Chỉ truy cập được trong class hoặc struct chứa nó.|
-| 3   | protected                  | Truy cập được trong class hiện tại và class dẫn xuất (kế thừa).|
-| 4   | internal                | Truy cập được trong cùng một assembly (project), nhưng không từ bên ngoài.|
-| 5   | abstract                      | Dùng để khai báo lớp hoặc phương thức trừu tượng|
-| 6   | interface                    | Khai báo giao diện, chỉ chứa định nghĩa phương thức, không có thân|
-| 7   | virtual    | Từ khóa virtual được dùng để cho phép một phương thức trong lớp cha có thể được ghi đè (override) trong lớp con.|
-| 8   | override                   | Dùng trong lớp con để ghi đè (override) một phương thức virtual hoặc abstract trong lớp cha|
-| 9   | new                      | Dùng để ẩn (hide) một thành viên kế thừa từ lớp cha, khi bạn không muốn override mà muốn viết lại từ đầu|
-| 10  | static             | Dùng để khai báo biến, phương thức, hàm khởi tạo, hoặc lớp mà không cần tạo đối tượng.|
-| 11  | ...                         | ...                                                                    |
+||
 
 ---
 
