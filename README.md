@@ -14,6 +14,7 @@
 - 🔹 Giới thiệu HTML - HyperText Markup Language
 - 🔹 Cấu trúc của HTML
 - 🔹 Các tag (thẻ) HTML cơ bản
+
 🔸 Các thẻ định dạng **khối văn bản**
 | Mô tả                  | Thẻ HTML                             |
 |------------------------|--------------------------------------|
@@ -56,7 +57,9 @@
 ## III. Ngôn ngữ CSS
 - 🔹 Giới thiệu CSS - Casscading Style Sheets
 - 🔹 Đơn vị kích thước
+  
 | Đơn vị | Mô tả|
+|--------|------|
 |Kích thước tương đối|
 | % | Phần trăm so với thành phần chứa đối tượng|
 |vw| Phần trăm của chiều rộng cửa sổ khung hình |
