@@ -1,0 +1,11 @@
+/* .card-oh {
+  overflow: hidden;
+} */
+
+.card-oh img {
+  transition: transform .5s;
+}
+
+.card-oh:hover img {
+  transform: scale(1.2);
+}
