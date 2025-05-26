@@ -86,7 +86,7 @@
 - 🔹 Đổ bóng - Transform
 - 🔹 Margin và Padding
 - 🔹 Responsive
-- 
+
 ---
 
 ## IV. Ngôn ngữ JavaScript
